@@ -1,4 +1,4 @@
-# 4-bit Ripple Carry Adder using Task, and 
+# 4-bit Ripple Carry Adder using Task, and 4-bit Ripple Counter using Function with Testbench  
 
 # Aim
 To design and simulate a 4KB ROM memory with read and write operations using Verilog HDL and verify the functionality through a testbench in the Vivado 2023.1 simulation environment.
@@ -57,12 +57,12 @@ module rom_memory (
     end
 endmodule
 ```
-output
+# Output
 ![Screenshot 2024-10-17 144003](https://github.com/user-attachments/assets/2c0e8ec1-2d06-4932-8098-68192bfba53f)
 
 
 
-Testbench for 4KB ROM Memory
+# Testbench for 4KB ROM Memory
 ```
 // rom_memory_tb.v
 `timescale 1ns / 1ps
@@ -122,7 +122,7 @@ module rom_memory_tb;
 
 endmodule
 ```
-output
+# Output
 ![Screenshot 2024-10-17 at 14 47 45_df0a2ad9](https://github.com/user-attachments/assets/216d3fe6-d382-4877-aa0a-c7a2d92ef46c)
 
 
